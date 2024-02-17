@@ -7,3 +7,23 @@
     outline: none;
     flex-direction: row;
 }
+.reason-text{
+    margin-top: 30px !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 290px !important;
+    text-align: center;
+    padding: 10px;
+    border: none !important;
+    width: 300px !important;
+}
+.card:hover{
+    box-shadow: 0 0 20px rgb(61, 203, 4);
+
+}
