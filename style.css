@@ -57,3 +57,20 @@
     list-style-type: none !important;
     border-left: 2px solid yellow;
 }
+.footer-start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.subscribtion >span{
+    width: 500px ;
+    border-radius: 20px;
+    box-shadow: 0 0 10px gray;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
