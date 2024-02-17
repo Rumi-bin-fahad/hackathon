@@ -1,0 +1,9 @@
+.hero-text >.merge >input{
+    height: 40px !important;
+    /* display: flex; */
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    flex-direction: row;
+}
