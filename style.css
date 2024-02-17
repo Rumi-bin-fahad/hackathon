@@ -7,6 +7,13 @@
     outline: none;
     flex-direction: row;
 }
+nav{
+    box-shadow: 0 0 5px rgb(61, 203, 4);
+    border-radius: 20px;
+}
+nav> .navbar-nav >li:hover{
+    color: yellowgreen;
+}
 .reason-text{
     margin-top: 30px !important;
     align-items: center;
@@ -46,11 +53,18 @@
     box-shadow: 0 0 20px rgb(61, 203, 4);
 
 }
-.menu{
+.menu-list{
+    margin: 0 auto !important;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-.menu-list span{
-    margin: 0 auto;
+.menu-list >span>img{
+    margin: 0 auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .menu-list >ul{
     text-decoration: none !important;
