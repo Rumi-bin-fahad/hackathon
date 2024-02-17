@@ -7,6 +7,25 @@
     outline: none;
     flex-direction: row;
 }
+nav:hover{
+    background: linear-gradient(45deg, #7af43d, #ffffff);
+     white !important;
+}
+.figo>p:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.footer{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+.btn{
+    box-shadow: 0 0 7px rgb(61, 203, 4);
+}
+.btn:hover{
+    background: linear-gradient(45deg, #55ff00, #004300);
+}
 nav{
     box-shadow: 0 0 5px rgb(61, 203, 4);
     border-radius: 20px;
@@ -76,15 +95,4 @@ nav> .navbar-nav >li:hover{
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-.subscribtion >span{
-    width: 500px ;
-    border-radius: 20px;
-    box-shadow: 0 0 10px gray;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    font-size: 20px;
 }
